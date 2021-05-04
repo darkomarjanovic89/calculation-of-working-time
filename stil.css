@@ -1,0 +1,85 @@
+body, html{
+    height: 100%;
+    background:linear-gradient(#1f1d1d, #404086); 
+    background-size: cover; 
+    background-attachment: fixed;  
+    
+    }     
+  }
+  li{
+    list-style-type: none;
+  }
+  a{
+   text-decoration: none;
+  }
+  .logout :hover{
+    background-color: red;
+    color: black !important;
+   }
+   #links :hover{
+   color: white;
+   }
+  
+   #tabelaIndex{ 
+      border-collapse: separate;   
+      border-spacing: 15px;
+  }
+   
+   #main-animated{
+      height: 0;
+      overflow: hidden;
+      background-image:url( slike/conectb.png);
+      background-size: cover;    
+      background-position: center;     
+       background-attachment: fixed;  
+     -moz-animation: slide 2s ease 1.5s forwards;
+     -webkit-animation: slide 2s ease 1.5s forwards;
+     -o-animation: slide 2s ease 1.5s forwards;
+     -ms-animation: slide 2s ease 1.5s forwards;
+      animation: slide 2s ease 1.5s forwards;
+  }
+  
+  @keyframes slide
+  {
+  from {height: 0;}
+  to {height: 100vh;}
+  }
+  
+  
+  .opacity-2 {
+    opacity:0.4!important;
+  }
+  .form-control::placeholder { 
+    color: black;
+  }
+  
+  .zoom {
+      padding: 50px;
+      background-color: rgb(160, 158, 150);
+      transition: transform .2s;
+      width: 200px;
+      height: 40px;
+      margin: 0 auto;
+    }
+    
+    .zoom:hover {
+     
+      transform: scale(1.01); 
+    }
+  
+  
+    .myDIV {
+      
+         animation: mymove 5s infinite;
+    }
+    
+    @keyframes mymove {
+      from {background-color: rgb(205, 210, 212);}
+      to {background-color: rgb(238, 230, 230);}
+    }
+  
+    #wrongP{
+      position: absolute;
+      top: 20%;
+      left: 45%;
+    }
